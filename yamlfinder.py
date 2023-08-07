@@ -22,18 +22,18 @@ ifile = args.ifile
 
 #sys.exit(1)
 
-with open(ifile) as myfile:
-   content_list = myfile.readlines()
+# with open(ifile) as myfile:
+#    content_list = myfile.readlines()
 
 
 yamlfiles = []
 
 
-for f in content_list:
-   if f.strip().endswith(('.yaml','.yml')):
-    yamlfiles.append(f.strip())
+# for f in content_list:
+#    if f.strip().endswith(('.yaml','.yml')):
+    # yamlfiles.append(f.strip())
 
-with open(ofile, 'w') as f:
-    for line in yamlfiles:
-        f.write(line)
-        f.write('\n')
+# with open(ofile, 'w') as f:
+    # for line in yamlfiles:
+        # f.write(line)
+        # f.write('\n')
