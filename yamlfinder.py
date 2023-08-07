@@ -20,6 +20,8 @@ else:
 
 ifile = args.ifile
 
+sys.exit(1)
+
 with open(ifile) as myfile:
    content_list = myfile.readlines()
 
